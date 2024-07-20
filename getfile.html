@@ -10,16 +10,38 @@
             }
         </style>
         <title>&period;</title>
+        <script type="text/javascript">
+            function sendToPage(){
+                var input = document.getElementById("search").value;
+                 //alert(input);
+                if (input == "explain"){
+                    location.href = "rcf-lorelei.html";
+                    return false;
+                }
+                else if (input == "reemerge"){
+                    location.href = "rcf-a1.html";
+                    return false;
+                }
+                else if (input == "number1"){
+                    location.href = "rcf-adelaide";
+                    return false;
+                }
+                else {
+                    alert('invalid input.');
+                }
+                    }
+        </script>
     </head>
     <body>
         <center>
             <div>
                 <p>type below.</p>
-                    <form action="search.php" method="post">
-                        <input id="key" type="text" name="k">
-                        <input type="submit" value="submit">
-                        <br><br>
-                    </form>
+                <input type="text" 
+                    method="put" id="search" 
+                    value="">
+                <input type='submit'
+                    onclick="sendToPage();" 
+                    value="submit" />
             </div>
         </center>
     </body>
