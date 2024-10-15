@@ -82,67 +82,74 @@ function sendToPage(){
         return false;
     }
     else if (input == "river"){
-        alert("she defended you to all her friends, you know. just for you to prove them right.");
+        alert("please, finish what i started. whatever you need, i'll help you with.");
     }
     else if (input == "castel"){
-        alert("don't.");
+        alert("i hear you. i know it's not much, but i'm doing what i can. it just... still hurts to think about everything that happened.");
     }
     else if (input == "milo"){
-        alert("you really think your own name will unlock something special? please. don't flatter yourself.");
+        alert("i still don't understand him. i don't think i ever will.");
     }
     else if (input == "max"){
-        alert("he's dead. you killed him. or have you forgotten?");
+        alert("the name he went by back when i knew him. but now, seeing everything you've been shown... did i ever really know him?");
     }
     else if (input == "maximilliano"){
-        alert("what would your parents say if they knew what you've done?");
+        alert("his real name. he always hated when i called him that. it doesn't suit him and he knows it. that reminder must hurt.");
     }
     else if (input == "florian"){
-        alert("i'm still here.");
+        alert("i can't. i'm sorry. ask me about anything, just not them. please.");
     }
-    else if (input == "maia"){
-        alert("she spent hours waiting for river to come home. just thought you should know that.");
+    else if (input == "joan"){
+        alert("if you can, tell her i'm sorry. tell her i'll always love her, and that i'll be here to welcome her when her time comes, if she'll have me.");
     }
     else if (input == "rowan"){
-        alert("what happened to him was your fault, too. never forget that.");
+        alert("he was your cousin, wasn't he? if i hadn't told him... i'm so sorry.");
     }
     else if (input == "adelaide"){
-        alert("do you wonder what could've been?");
+        alert("please, thank her for me. i couldn't have asked for a better sister.");
     }
     else if (input == "quinn"){
-        alert('she thought you were good. can you believe it? she thought that by helping you, she was doing something GOOD.');
+        alert("knowing what i know now, i forgive her. i dont't think castel really blames her, either. i hope she knows that.");
     }
     else if (input == "lola"){
-        alert('are you proud of how you treated her?');
+        alert("another one of his victims. i'm glad she was able to escape. i hope she's okay.");
     }
     else if (input == "aurorae"){
-        alert('8');
+        alert("8");
     }
     else if (input == "soren"){
-        alert('i forgive her.');
+        alert("she lied to florian. i know she didn't want to, but she did. florian may forgive her, but i can't. i don't think i ever will.");
     }
     else if (input == "vi"){
-        alert("i'm glad she's doing better now.");
+        alert("why are happy endings given to those who deserve them least?");
     }
-    else if (input == "aviana"){
-        alert("don't you know it's rude to look through people's memories?");
+    else if (input == "serenity"){
+        alert("she thought the same thing i did. i feel sorry for her.");
+    }
+    else if (input == "séré"){
+        alert("placeholder");
     }
     else if (input == "remember"){
         alert("jlq xtpyxyx ksg dslch eehf lvi");
     }
     else if (input == "zinnia"){
-        alert("i won't apologize. not to you.");
+        location.href = "note.html"
+        return false;
     }
     else if (input == "help"){
-        alert('you cannot be saved.');
+        alert("i'm sorry, but you cannot be saved anymore.");
     }
     else if (input == "at first light"){
-        alert('dawn is approaching.');
+        alert("the sun will rise soon.");
     }
     else if (input == "the eye of the beholder"){
-        alert('how did it end?');
+        alert("how did it end?");
     }
     else if (input == "coffee at midnight"){
-        alert('you can hear it in the silence.');
+        alert("you can hear it in the silence...");
+    }
+    else if (input == "below"){
+        alert("ha ha, very funny. can you focus now?");
     }
     else {
         alert('invalid input.');
