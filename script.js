@@ -10,7 +10,7 @@ function sendToPage(){
         return false;
     }
     else if (input == "amulet"){
-        location.href = "rcf-adelaide1";
+        location.href = "rcf-adelaide1.html";
         return false;
     }
     else if (input == "4382867144"){
@@ -120,14 +120,11 @@ function sendToPage(){
     else if (input == "soren"){
         alert("she lied to florian. i know she didn't want to, but she did. florian may forgive her, but i can't. i don't think i ever will.");
     }
-    else if (input == "vi"){
+    else if (input == "viii"){
         alert("why are happy endings given to those who deserve them least?");
     }
     else if (input == "serenity"){
         alert("she thought the same thing i did. i feel sorry for her.");
-    }
-    else if (input == "séré"){
-        alert("placeholder");
     }
     else if (input == "remember"){
         alert("jlq xtpyxyx ksg dslch eehf lvi");
@@ -150,6 +147,34 @@ function sendToPage(){
     }
     else if (input == "below"){
         alert("ha ha, very funny. can you focus now?");
+    }
+        else if (input == "behold"){
+        location.href = "rmr-intro.html";
+        return false;
+    }
+        else if (input == "metamorphosize"){
+        location.href = "rmr-creation.html";
+        return false;
+    }
+        else if (input == "fall"){
+        location.href = "rmr-fall.html";
+        return false;
+    }
+        else if (input == "forever"){
+        location.href = "rmr-mendax.html";
+        return false;
+    }
+        else if (input == "never"){
+        location.href = "rmr-tempus.html";
+        return false;
+    }
+        else if (input == "depths"){
+        location.href = "rmr-findings.html";
+        return false;
+    }
+        else if (input == "qUMYxwCp4tdyWLPzsxrBf9ShH3QuAKJZY"){
+        alert('placeholder.');
+        return false;
     }
     else {
         alert('invalid input.');
