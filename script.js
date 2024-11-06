@@ -10,11 +10,11 @@ function sendToPage(){
         return false;
     }
     else if (input == "amulet"){
-        location.href = "rcf-adelaide1.html";
+        location.href = "rcf-adelaide.html";
         return false;
     }
     else if (input == "4382867144"){
-        location.href = "rcf-ahmeds1.html"
+        location.href = "rcf-althea.html"
         return false;
     }
     else if (input == "muffin"){
