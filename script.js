@@ -26,19 +26,19 @@ function sendToPage(){
         return false;
     }
     else if (input == "5146974399"){
-        location.href = "rcf-maia1.html"
+        location.href = "rcf-joan.html"
         return false;
     }
     else if (input == "16"){
-        location.href = "rcf-adelaide2.html"
+        location.href = "rcf-jeremiah.html"
         return false;
     }
     else if (input == "justice"){
-        location.href = "rcf-ahmeds2.html"
+        location.href = "rcf-carmen.html"
         return false;
     }
     else if (input == "key"){
-        location.href = "rcf-maia2.html"
+        location.href = "rcf-mitchells.html"
         return false;
     }
         else if (input == "july 10"){
