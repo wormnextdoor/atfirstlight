@@ -22,7 +22,7 @@ function sendToPage(){
         return false;
     }
     else if (input == "warehouse"){
-        location.href = "rcf-2032.html";
+        location.href = "rcf-2034.html";
         return false;
     }
     else if (input == "5146974399"){
