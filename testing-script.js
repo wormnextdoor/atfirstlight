@@ -10,7 +10,7 @@ function sendToPage(){
         location.href = "message.html";
         return false;
     }
-        else if (input == "here"){
+        else if (input == "below"){
         alert("ha ha, very funny.");
         return false;
     }
